@@ -146,11 +146,11 @@ pip install -r requirements.txt
 jupyter notebook loan_prediction.ipynb
 ```
 
-**3. Run the web app**
-```bash
-python -m streamlit run app.py
-```
-> Note: if `streamlit run app.py` gives a "command not recognized" error (common on Windows/PowerShell when Streamlit isn't on your system PATH), use the command above instead — it runs Streamlit as a Python module and works reliably.
+**3. 🚀 Try the Live Web App**
+
+You can test the trained model directly in your browser without any setup:
+
+👉 **[Launch Loan Approval Predictor](https://loan-approval-prediction-ml-ej7mh7bh3snxoqnklpzrdd.streamlit.app/)**
 
 Fill in the applicant details, click **Predict**, and it will show whether the loan is Approved or Rejected along with a confidence score.
 
