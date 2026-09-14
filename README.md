@@ -87,8 +87,7 @@ Evaluated on the held-out test set (8,999 unseen applicants):
 
 **Confusion Matrix**
 
-_(Insert the confusion matrix heatmap image from the notebook here — screenshot it and save as e.g. `screenshots/confusion_matrix.png`, then embed with:_
-`![Confusion Matrix](screenshots/confusion_matrix.png)`_)_
+![Confusion Matrix](Screenshots/confusion_matrix.png)
 
 A confusion matrix shows four things: how many approvals were correctly predicted, how many rejections were correctly predicted, and how many of each were mixed up. This is more informative than accuracy alone, especially since our dataset is imbalanced.
 
@@ -113,9 +112,7 @@ While exploring the data, I initially assumed things like higher income, owning 
 | Age 35, Income $85,000, Master's, no prior default, RENT, PERSONAL loan, 15% loan-to-income | Rejected | 77% |
 | Age 29, Income $54,464, Associate, no prior default, RENT, VENTURE loan, 26% loan-to-income | Approved | 99% |
 
-_(Add your own screenshots of the running app here for both an approved and a rejected case — this is strong evidence that you tested the model, not just built it.)_
-`![Approved Example](screenshots/approved_example.png)`
-`![Rejected Example](screenshots/rejected_example.png)`
+![Approved Example](Screenshots/approved_example.png) | ![Rejected Example](Screenshots/rejected_example.png)
 
 ---
 
